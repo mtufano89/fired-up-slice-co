@@ -526,6 +526,11 @@ textarea:focus {
     margin-right: 1.5rem;
 }
 
+@media (max-width: 768px) {
+    .logo img {
+        height: 40px;
+    }
+}
 
 /* =======================================
    Footer
@@ -606,4 +611,5 @@ textarea:focus {
     grid-template-columns: 1fr;
   }
 }
+
 
